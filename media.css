@@ -1,0 +1,247 @@
+@media screen and (max-width: 1200px) {
+    .cards-grid .card-content {
+        padding: 70px 10px 15px;
+    }
+    .card-content__pricing div {
+        gap: 5px;
+    }
+
+    .card-content__pricing div p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .hamburger {
+        display: flex;
+    }
+
+    .signInText {
+        display: none;
+    }
+    .material-symbols-outlined {
+        display: inline-block;
+        padding: 5px;
+        font-size: 34px;
+    }
+    .header nav {
+        display: none;
+    }
+    .header .btn {
+        order: -1;
+        font-size: 14px;
+        width: 80px;
+        height: 40px;
+        border: none;
+        background: none;
+    }
+
+    .header .btn:hover {
+        color: #fff;
+    }
+
+    .nav-link {
+        display: block;
+        font-size: 18px;
+        text-transform: uppercase;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .destinations {
+        padding: 20px;
+    }
+    
+    .button {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+
+    .bar-section {
+        grid-template-columns: 60% 35%;
+        grid-template-rows: 50px auto;
+    }
+
+    .footer-menu {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .footer-menu .nav {
+        gap: 55px;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-grid .card {
+        grid-column: auto !important;
+        grid-row: auto !important;
+    }
+
+    .cards-grid .card-content,
+    .cards-grid>.card:nth-child(5)>.card-content, 
+    .cards-grid>.card:nth-child(7)>.card-content  {
+        bottom: 0;
+        text-align: center;
+        background: linear-gradient(0deg, #222 0%, rgba(34, 34, 34, 0.00) 100%);
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-content__link {
+        display: block;
+    }
+
+    .card-content__description {
+        overflow: auto;
+    }
+
+    .cards-pagination-wrapper, 
+    .cards-pagination {
+        gap: 50px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+
+    .cards-flex .card-content__title {
+        font-size: 36px;
+    }
+
+    .cards-flex .card-content__description {
+        font-size: 16px;
+    }
+}
+
+@media  screen and (max-width: 768px){
+    .bar-section__buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .bar-section__buttons .button-with-icon {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-menu .nav {
+        gap: 30px;
+    }
+
+    .footer-bottom {
+        font-size: 10px;
+    }
+}
+
+@media  screen and (max-width: 576px) {
+    .title {
+        font-size: 50px;
+    }
+
+    .bar-section {
+        grid-template-columns: 1fr;
+    }
+
+    .search-input {
+        height: 50px;
+    }
+
+    .bar-section__buttons {
+        flex-direction: column;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cards-pagination-wrapper {
+        margin-top: 50px;
+    }
+
+    .cards-pagination-wrapper, .cards-pagination {
+        gap: 20px;
+    }
+
+    .cards-pagination__link, 
+    .cards-pagination-wrapper span, 
+    .cards-pagination__total {
+        font-size: 20px;
+    }
+
+    .cards-flex>.card {
+        position: relative;
+        flex-direction: column;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .cards-flex .card-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .cards-flex .card-content {
+        padding-left: 0;
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+    }
+
+    .footer-menu .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .cards-grid .card:hover>.card-content{
+        bottom: 0;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 15px 15px;
+        gap: 20px;
+        background: rgba(34, 34, 34, 0.75);
+        transition: all .5s ease;
+    }
+    .cards-grid .card:hover .card-content__link {
+        display: block;
+    }
+    
+    .cards-grid .card:hover .card-content__title {
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .footer {
+        padding: 80px 0;
+    }
+
+    .footer-menu {
+        gap: 25px 10px;
+    }
+
+    .footer-menu .nav {
+        gap: 60px;
+    }
+} 
