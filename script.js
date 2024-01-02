@@ -14,6 +14,46 @@ const btn1 = document.querySelectorAll('.btnJs'),
       hamburger = document.querySelector('.hamburger'),
       headerNav = document.querySelector('.header nav');
 
+// import countries from './products.json' assert { type: 'json' };
+// console.log(countries.length)
+
+// for (let i = 0; i < countries.length; i++) {
+//     cards.innerHTML += `
+//         <div data-destination=${countries[i].dataDestination} class="card">
+//             <img class="card-image" src=${countries[i].img.src} alt="${countries[i].title} image">
+//             <div class="card-content">
+//                 <h4 class="card-content__title">${countries[i].title}</h4>
+//                 <div class="card-content__pricing">
+//                     <div>
+//                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+//                             <path d="M9.99999 0C6.32405 0 3.33331 2.99074 3.33331 6.66668C3.33331 7.7702 3.60921 8.86434 4.1337 9.8348L9.63542 19.7852C9.70866 19.9178 9.84823 20 9.99999 20C10.1518 20 10.2913 19.9178 10.3646 19.7852L15.8683 9.83152C16.3908 8.86434 16.6667 7.77016 16.6667 6.66664C16.6667 2.99074 13.6759 0 9.99999 0ZM9.99999 10C8.16202 10 6.66667 8.50465 6.66667 6.66668C6.66667 4.82871 8.16202 3.33336 9.99999 3.33336C11.838 3.33336 13.3333 4.82871 13.3333 6.66668C13.3333 8.50465 11.838 10 9.99999 10Z" fill="white"/>
+//                         </svg>
+//                         <p>${countries[i].cardContent.quantity}</p>
+//                     </div>
+//                     <span>&#160 | &#160</span>
+//                     <div>
+//                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+//                             <g clip-path="url(#clip0_1_94)">
+//                             <path d="M10 0C4.4767 0 0 4.47713 0 10C0 15.5229 4.4767 20 10 20C15.5233 20 20 15.5224 20 10C20 4.47757 15.5229 0 10 0ZM10.6053 14.4545V15.6121C10.6053 15.7927 10.4648 15.9241 10.2837 15.9241H9.51216C9.33113 15.9241 9.18534 15.7927 9.18534 15.6121V14.5563C8.47513 14.5241 7.75882 14.3727 7.21659 14.1664C6.92284 14.055 6.75922 13.7404 6.83711 13.4357L6.96288 12.9457C7.00683 12.7738 7.12172 12.6302 7.27882 12.5497C7.43592 12.4679 7.62044 12.4596 7.78537 12.5227C8.30193 12.7225 8.91205 12.8678 9.56351 12.8678C10.393 12.8678 10.9609 12.5475 10.9609 11.9653C10.9609 11.4122 10.4952 11.0627 9.41773 10.6985C7.86022 10.1745 6.79359 9.44689 6.79359 8.03473C6.79359 6.75399 7.70007 5.7496 9.24975 5.44367V4.38792C9.24975 4.20732 9.40424 4.04543 9.58527 4.04543H10.3568C10.5379 4.04543 10.6706 4.20732 10.6706 4.38792V5.3414C11.3482 5.37056 11.8373 5.47108 12.2464 5.60425C12.5558 5.70521 12.7386 6.02942 12.6572 6.34536L12.5467 6.78402C12.5036 6.95113 12.3931 7.093 12.2416 7.17481C12.0902 7.25663 11.9113 7.27142 11.7477 7.21528C11.376 7.08778 10.8912 6.97202 10.2768 6.97202C9.33069 6.97202 9.02476 7.37978 9.02476 7.78755C9.02476 8.26798 9.53436 8.57348 10.7716 9.03956C12.5036 9.65099 13.1994 10.4517 13.1994 11.7612C13.199 13.0567 12.2838 14.1638 10.6053 14.4545Z" fill="white"/>
+//                             </g>
+//                             <defs>
+//                             <clipPath id="clip0_1_94">
+//                                 <rect width="20" height="20" fill="white"/>
+//                             </clipPath>
+//                             </defs>
+//                         </svg>
+//                         <p>${countries[i].cardContent.pricing}</p>
+//                     </div>
+//                 </div>
+//                 <p class="card-content__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+//                 <a class="card-content__link" href="#">Learn More</a>
+//             </div>
+//         </div>
+
+//     `
+// }
+
+
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('open');
     headerNav.classList.toggle('mobile-nav');

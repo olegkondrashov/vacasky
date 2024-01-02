@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Switzerland",
+        "dataDestination": "best",
+        "img": {
+            "src": "./assets/picture2_2.webp"
+        },
+        "cardContent": {
+            "quantity": "20 Packages",
+            "pricing": "2,000 - 2,500",
+            "cardDescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+        }
+    },
+    {
+        "title": "Japan",
+        "dataDestination": "nature",
+        "img": {
+            "src": "./assets/picture1_1.webp"
+        },
+        "cardContent": {
+            "quantity": "20 Packages",
+            "pricing": "1,500 - 2,000",
+            "cardDescription": "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery. Visitors can enjoy exploring Tokyo, Osaka, Kyoto, and Hakone. "
+        }
+    }
+]
